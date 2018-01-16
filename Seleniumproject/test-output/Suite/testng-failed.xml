@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="firefoxTest(failed)">
+    <parameter name="password" value="medaboinan"/>
+    <parameter name="myBrowser" value="firefox"/>
+    <parameter name="username" value="nagaraju465@gmail.com"/>
+    <classes>
+      <class name="testngFramework.crossbrowsertesting">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- testngFramework.crossbrowsertesting -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+  <test name="chromeTest(failed)">
+    <parameter name="password" value="medaboinan"/>
+    <parameter name="myBrowser" value="chrome"/>
+    <parameter name="username" value="nagaraju465@gmail.com"/>
+    <classes>
+      <class name="testngFramework.crossbrowsertesting">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- testngFramework.crossbrowsertesting -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

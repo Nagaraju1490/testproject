@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="firefoxTest">
+  
+   <parameter name="myBrowser" value="firefox"/>
+  <parameter name="username" value="nagaraju465@gmail.com"/>
+   <parameter name="password" value="medaboinan"/>
+    <classes>
+      <class name="testngFramework.crossbrowsertesting"/>
+    </classes>
+      </test> <!-- Test -->
+    
+    <test name="chromeTest">
+  
+   <parameter name="myBrowser" value="chrome"/>
+  <parameter name="username" value="nagaraju465@gmail.com"/>
+   <parameter name="password" value="medaboinan"/>
+    <classes>
+      <class name="testngFramework.crossbrowsertesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

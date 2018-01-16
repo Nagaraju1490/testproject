@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="facebook test">
+  
+  <parameter name="username" value="nagaraju465@gmail.com"/>
+   <parameter name="password" value="medaboinan"/>
+  
+    <classes>
+      <class name="testngFramework.Paramerisetest"/>
+    </classes>
+   
+  </test> 
+</suite> 
